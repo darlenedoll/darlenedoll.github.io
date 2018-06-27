@@ -1,8 +1,36 @@
-.header-center{
+..header-center{
   color:red;
   text-align: center;
 }
 
 body{
-  background-color: purple;
+  background-color: yellow;
+}
+div {
+    width: 650px;
+    height: 100px;
+    background-color: light green;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 6s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 6s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 10%;}
+    to {left: 52%;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 10%;}
+    to {left: 52%;}
 }
