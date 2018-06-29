@@ -10,7 +10,7 @@ body {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
     from {background-color: blue;}
-    to {background-color: pink;}
+    to {background-color: red;}
 }
 
 /* Standard syntax */
